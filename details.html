@@ -8,8 +8,20 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <nav class="navbar bg-dark navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="me-2" style="height: 32px; width: auto; fill: currentColor">
+            <path
+              d="M36.8 192l566.3 0c20.3 0 36.8-16.5 36.8-36.8c0-7.3-2.2-14.4-6.2-20.4L558.2 21.4C549.3 8 534.4 0 518.3 0L121.7 0c-16 0-31 8-39.9 21.4L6.2 134.7c-4 6.1-6.2 13.2-6.2 20.4C0 175.5 16.5 192 36.8 192zM64 224l0 160 0 80c0 26.5 21.5 48 48 48l224 0c26.5 0 48-21.5 48-48l0-80 0-160-64 0 0 160-192 0 0-160-64 0zm448 0l0 256c0 17.7 14.3 32 32 32s32-14.3 32-32l0-256-64 0z"
+            />
+          </svg>
+          Shop Online
+        </a>
+      </div>
+    </nav>
     <div class="container my-5 d-flex flex-column align-items-center" style="background-color: #c5d9ee">
-      <h1 class="mb-4" id="productName">Dettaglio prodotto</h1>
+      <h1 class="mb-4 mt-5" id="productName">Dettaglio prodotto</h1>
       <div class="card" style="max-width: 500px">
         <img id="productImage" class="card-img-top h-100" alt="immagine prodotto" />
         <div class="card-body">
@@ -24,6 +36,23 @@
         </div>
       </div>
     </div>
+
+    <footer class="bg-dark text-light py-4 mt-5 fixed-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-3 mb-md-0">
+            <h5>ShopOnline</h5>
+            <p class="mb-0">Lo shop responsive.</p>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <a href="index.html" class="text-light me-3 text-decoration-none">Home</a>
+            <a href="backoffice.html" class="text-light me-3 text-decoration-none">Backoffice</a>
+            <a href="#" class="text-light text-decoration-none">Contatti</a>
+            <p class="mt-2 mb-0 small">&copy; 2025 Il tuo Negozio. Tutti i diritti riservati.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="./js/details.js"></script>
   </body>
