@@ -21,7 +21,7 @@
       </div>
     </nav>
     <div class="container mt-5">
-      <h1 id="formTitle" class="mb-4">Gestione dei prodotti</h1>
+      <h1 id="formTitle" class="mb-4" style="text-align: center">Gestione dei prodotti</h1>
       <form id="productForm">
         <div class="mb-3">
           <label class="form-label">Nome</label>
@@ -43,10 +43,12 @@
           <label class="form-label">Prezzo</label>
           <input type="number" class="form-control" id="price" required />
         </div>
-        <button type="submit" class="btn btn-success">Salva</button>
-        <button type="reset" id="resetBtn" class="btn btn-warning">Reset</button>
-        <button type="button" id="deleteBtn" class="btn btn-danger d-none">Elimina prodotto</button>
-        <button type="button" id="backToHomeBtn" class="btn btn-secondary d-none">Torna alla Home</button>
+        <div class="mt-5 d-flex justify-content-center gap-1">
+          <button type="submit" class="btn btn-success">Salva prodotto</button>
+          <button type="reset" id="resetBtn" class="btn btn-warning">Reset form</button>
+          <button type="button" id="deleteBtn" class="btn btn-danger d-none">Elimina prodotto</button>
+          <button type="button" id="backToHomeBtn" class="btn btn-secondary d-none">Torna alla Home</button>
+        </div>
       </form>
     </div>
 
